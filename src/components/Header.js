@@ -16,7 +16,7 @@ export default function Example() {
 
   return (
     <>
-      <div className="relative ">
+      <div className="relative  ">
         <div className="flex flex-col  lg:flex lg:flex-col lg:justify-center  place-items-center">
         <img src={Header} alt="bg" className="" />
         <h1 className="absolute top-48  text-white font-bold text-5xl tracking-widest		 ">WE ARE CREATIVES</h1>

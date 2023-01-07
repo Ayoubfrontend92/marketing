@@ -1,11 +1,11 @@
 import Header from './components/Header';
-import Middle from './components/Middle';
+import MiddleContainer from './components/Middle-container';
 
 function App() {
   return (
     <div>
       <Header/>
-      <Middle/>
+      <MiddleContainer/>
     </div>
   );
 }
