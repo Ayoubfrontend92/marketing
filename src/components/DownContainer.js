@@ -27,7 +27,7 @@ const DownContainer = () => {
         <div className='w-1/3 flex flex-col h-auto p-5  justify-center leading-7 items-center text-center '>
           <img src={pro2} alt='img-pro' className='rounded-full w-20 h-20' />
           <p className='mt-10 font-bold text-slate-500'>Chief Operating Officer Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended! </p>
-          <p className='mt-14 font-bold'>Emily R.</p>
+          <p className='mt-14 font-bold'>Jesica R.</p>
           <p className='mt-2 text-xs font-bold text-slate-400'>Business Owner</p>
         </div>
 

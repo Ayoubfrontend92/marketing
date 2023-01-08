@@ -17,9 +17,10 @@ export default function Example() {
   return (
     <>
       <div className="relative  ">
+        <p className=" absolute top-8 cursor-pointer font-mono font-bold text-5xl text-white left-20 ">Adubi</p>
         <div className="flex flex-col  lg:flex lg:flex-col lg:justify-center  place-items-center">
         <img src={Header} alt="bg" className="" />
-        <h1 className="absolute top-48  text-white font-bold text-5xl tracking-widest		 ">WE ARE CREATIVES</h1>
+        <h1 className="absolute top-48  text-white font-bold text-5xl tracking-widest font-mono		 ">WE ARE CREATIVES</h1>
         <img src={arrow} className="absolute lg:flex lg:justify-center  top-80" />
         </div>
 
@@ -50,7 +51,7 @@ export default function Example() {
                 ))}
               </div>
               <div className="hidden right-0 lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
-                <a href="#"className="inline-block rounded-full px-8 py-4 text-lg font-semibold leading-6 bg-white	 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20"
+                <a href="#"className="inline-block rounded-full px-8 py-4 text-lg font-semibold leading-6 bg-white hover:text-white hover:bg-sky-800 	 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20"
                 >CONTACT</a>
               </div>
             </nav>
