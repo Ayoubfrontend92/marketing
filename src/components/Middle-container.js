@@ -9,7 +9,7 @@ import Orange from "../assets/desktop/image-photography.jpg";
 
 const MiddleContainer = () => {
   return (
-    <div className='flex h-screen flex-wrap'>
+    <div className='flex h-full flex-wrap'>
        
        <div className='flex w-1/2 bg-red-100 h-auto flex-col justify-center items-center'>
         <div className='m-20 h-auto max-full p-8  flex-wrap'>
@@ -21,8 +21,8 @@ const MiddleContainer = () => {
         </div>
        </div>
 
-       <div className='bg-red-500 flex w-1/2 h-max'><img src={Egge} className='' /></div>
-       <div className='bg-red-500 flex w-1/2 h-max'><img src={Glass} className='' /></div>
+       <div className='bg-red-500 flex w-1/2 h-max'><img src={Egge} alt='middle-img' className='' /></div>
+       <div className='bg-red-500 flex w-1/2 h-max'><img src={Glass} alt='middle-img' className='' /></div>
 
        <div className='flex w-1/2 bg-red-100 h-auto flex-col justify-center items-center'>
         <div className='m-20 h-auto max-full p-8  flex-wrap'>
@@ -34,7 +34,7 @@ const MiddleContainer = () => {
 
 
        <div className='bg-red-500 bg flex w-1/2 h-max relative '>
-        <img src={Cherry} className='' />
+        <img src={Cherry} alt='midle-img' className='' />
         <h1 className=" text-4xl font-bold text-stone-900 absolute ml-52 top-96"> Graphic design </h1>
         <p className='absolute mt-16 ml-36 top-96 text-center w-96 h- text-slate-500 font-medium text-sm'>Great design makes you memorable. We deliver artwork that
         underscores your brand message and captures potential clients
@@ -43,7 +43,7 @@ const MiddleContainer = () => {
         </div>
 
 
-       <div className='bg-red-500 flex w-1/2 h-max relative'><img src={Orange} className='' />
+       <div className='bg-red-500 flex w-1/2 h-max relative'><img src={Orange} alt='middle-img' className='' />
         <h1 className=" text-4xl font-bold text-stone-900 absolute ml-52 top-96"> Photography </h1>
         <p className='absolute mt-16 ml-36 top-96 text-center w-96 h- text-slate-500 font-medium text-sm'>Great design makes you memorable. We deliver artwork that
         Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
